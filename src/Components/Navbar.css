@@ -1,0 +1,52 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #34495e; /* Navbar background color */
+  color: #ecf0f1; /* Navbar text color */
+  padding: 2em 0; /* Padding for top and bottom */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Space between brand and nav links */
+  align-items: center;
+  max-width: 1200px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 1em; /* Padding inside the container */
+}
+
+.navbar-brand {
+  font-size: 1.5em; /* Brand font size */
+  font-weight: bold; /* Brand font weight */
+  text-transform: uppercase; /* Uppercase text */
+  color: #ecf0f1; /* Brand text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-list {
+  list-style: none; /* Remove default list styles */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Display links in a row */
+}
+
+.nav-list li {
+  margin-right: 1em; /* Margin between each list item */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline */
+  color: #ecf0f1; /* Link text color */
+  padding: 0.5em 1em; /* Padding inside the link */
+  transition: color 0.3s, box-shadow 0.3s; /* Smooth color and box-shadow transition */
+}
+
+.nav-link:hover {
+  color: whitesmoke; /* Link text color on hover */
+  box-shadow: 0 0 10px whitesmoke; /* Add glow effect on hover */
+}
+
+.active {
+  color: whitesmoke; /* Active link text color */
+  font-weight: bold; /* Bold font for active link */
+  box-shadow: 0 0 10px whitesmoke; /* Add glow effect to active link */
+}
